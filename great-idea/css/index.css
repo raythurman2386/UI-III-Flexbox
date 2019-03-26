@@ -208,11 +208,12 @@ header .hero {
   margin-top: 150px;
   margin-bottom: 60px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
 header .main-header {
-  width: 48%;
+  width: 420px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -220,7 +221,7 @@ header .main-header {
 }
 
 header .main-img {
-  width: 48%;
+  width: 420px;
   margin-left: 40px;
 }
 
