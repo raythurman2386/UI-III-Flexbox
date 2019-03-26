@@ -428,6 +428,25 @@ section.facts div ul li:first-child {
     position: relative;
   }
 
+  /*  Index page media  */
+  .container header .hero,
+  .section-a,
+  .section-b {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container header .hero {
+    margin-top: 15px;
+  }
+
+  .container header .hero .main-header {
+    margin: 15px 0;
+  }
+
+  /*  Services page media  */
+
   .container header .services-header-img {
     margin-top: 15px;
   }
@@ -440,5 +459,14 @@ section.facts div ul li:first-child {
   .main-services .cards,
   .facts {
     flex-direction: column;
+  }
+
+  /*  Contact form Media  */
+  .main-contact {
+    flex-direction: column;
+  }
+
+  .main-contact .contact-form {
+    margin-bottom: 15px;
   }
 }
