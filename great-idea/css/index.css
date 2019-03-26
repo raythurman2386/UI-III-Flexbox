@@ -300,3 +300,37 @@ footer {
 	width: 100%;
 	margin-top: 100px;
 }
+
+section.cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+/* cards */
+
+section.cards article.card {
+	width: 420px;
+	height: 250px;
+	border: 1px solid black;
+	padding: 20px;
+	margin-top: 40px;
+	background-color: #f4f3f4;
+}
+
+section.facts {
+	display: flex;
+}
+
+section.facts div {
+	width: 45%;
+}
+
+section.cards article.card button.learn {
+	background: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 8px 40px;
+	margin-top: 20px;
+}
