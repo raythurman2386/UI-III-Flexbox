@@ -237,8 +237,9 @@ header .main-header button {
 }
 
 header .main-header button:hover {
-  animation: buttonFill 3s;
+  animation: buttonFill 2s;
   animation-fill-mode: forwards;
+  cursor: pointer;
 }
 
 /* Section A */
@@ -289,7 +290,7 @@ footer {
   }
 
   to {
-    background-color: blue;
+    background-color: dodgerblue;
     color: white;
   }
 }
@@ -319,7 +320,6 @@ section.services h1 {
 }
 
 /* cards */
-
 section.cards article.card {
   width: 420px;
   height: 250px;
@@ -327,9 +327,11 @@ section.cards article.card {
   padding: 20px;
   margin-top: 40px;
   background-color: #f4f3f4;
+  box-shadow: 0 3px 3px lightgray;
 }
 
-section.cards article.card h2 {
+section.cards article.card h2,
+section.facts h2 {
   font-size: 16px;
 }
 
@@ -342,27 +344,29 @@ section.cards article.card button.learn {
   cursor: pointer;
 }
 
+section.cards article.card button.learn:hover {
+  animation: buttonFill 2s;
+  animation-fill-mode: forwards;
+}
+
 /* Facts */
 section.facts {
   display: flex;
   justify-content: space-between;
-  align-content: space-between;
-}
-
-section.facts h2 {
-  font-size: 16px;
-}
-
-section.facts div {
-  display: flex;
-  align-content: space-between;
-  flex-direction: column;
-  width: 420px;
   margin-top: 40px;
+}
+
+section.facts div.fact,
+div img.services-info-img {
+  width: 420px;
 }
 
 section.facts div ul li {
   list-style-type: square;
   list-style-position: inside;
   line-height: 2;
+}
+
+section.facts div ul li:first-child {
+  margin-top: 10px;
 }
