@@ -160,13 +160,9 @@ body {
 	box-sizing: border-box;
 }
 
-p {
-	font-family: 'Source Code Pro', sans-serif;
-}
-
 .container {
 	margin: 0 auto;
-	width: 60%;
+	width: 1000px;
 }
 
 div.main {
@@ -184,13 +180,15 @@ header nav {
 	position: fixed;
 	top: 0;
 	z-index: 1;
-	width: 100%;
 	background: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 1000px;
+	box-shadow: 0 4px 4px lightgray;
 }
 
 header nav a {
-	display: inline-block;
-	margin-left: 50px;
 	text-decoration: none;
 	color: darkgrey;
 	padding: 20px;
@@ -198,12 +196,7 @@ header nav a {
 
 header nav a:hover {
 	color: black;
-}
-
-header nav img {
-	display: inline-block;
-	margin-top: 30px;
-	margin-left: 160px;
+	font-size: 20px;
 }
 
 header nav a:first-child {
@@ -214,15 +207,19 @@ header nav a:first-child {
 header .hero {
 	margin-top: 150px;
 	margin-bottom: 60px;
+	display: flex;
+	align-items: center;
 }
 
 header .main-header {
-	display: inline-block;
 	width: 48%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 header .main-img {
-	display: inline-block;
 	width: 48%;
 	margin-left: 40px;
 }
@@ -237,7 +234,6 @@ header .main-header button {
 	border: 1px solid black;
 	padding: 10px 60px;
 	font-size: 16px;
-	margin-left: 170px;
 }
 
 header .main-header button:hover {
@@ -248,10 +244,11 @@ header .main-header button:hover {
 /* Section A */
 .section-a {
 	margin-top: 20px;
+	display: flex;
+	justify-content: space-evenly;
 }
 
 article.top {
-	display: inline-block;
 	width: 49%;
 }
 
@@ -265,10 +262,11 @@ article.top {
 /* Section B */
 .section-b {
 	margin-bottom: 40px;
+	display: flex;
+	justify-content: space-evenly;
 }
 
 .section-b article.bottom {
-	display: inline-block;
 	width: 33%;
 }
 
