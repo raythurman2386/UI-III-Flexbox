@@ -163,12 +163,16 @@ h5 {
 
 .section-a {
   border-top: 1px solid black;
-  margin: 60px 0;
 }
 
-h2 {
+.section-a h2,
+.contact-section h2 {
   font-size: 25px;
   margin-top: 20px;
+}
+
+.section-b h2 {
+  font-size: 25px;
 }
 
 /* Navbar  */
@@ -212,7 +216,8 @@ header .main-header {
   align-items: center;
 }
 
-header .main-img {
+header .main-img,
+article.top {
   width: 420px;
 }
 
@@ -239,10 +244,6 @@ header .main-header button:hover {
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
-}
-
-article.top {
-  width: 420px;
 }
 
 /* Center Image */
