@@ -419,3 +419,26 @@ section.facts div ul li:first-child {
 #message {
   width: 380px;
 }
+
+/*    Media Query Attempts     */
+@media only screen and (max-width: 500px) {
+  .container header nav {
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+  }
+
+  .container header .services-header-img {
+    margin-top: 15px;
+  }
+
+  .container {
+    width: 440px;
+    margin: 0 auto;
+  }
+
+  .main-services .cards,
+  .facts {
+    flex-direction: column;
+  }
+}
