@@ -246,11 +246,11 @@ header .main-header button:hover {
 .section-a {
   margin-top: 20px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 article.top {
-  width: 49%;
+  width: 420px;
 }
 
 /* Center Image */
@@ -264,11 +264,11 @@ article.top {
 .section-b {
   margin-bottom: 40px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .section-b article.bottom {
-  width: 33%;
+  width: 280px;
 }
 
 /* Contact */
