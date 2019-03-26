@@ -356,7 +356,7 @@ section.facts {
   margin-top: 40px;
 }
 
-section.facts div.fact,
+article.fact,
 div img.services-info-img {
   width: 420px;
 }
