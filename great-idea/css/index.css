@@ -156,10 +156,6 @@ h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-body {
-  box-sizing: border-box;
-}
-
 .container {
   margin: 0 auto;
   width: 880px;
@@ -199,10 +195,6 @@ header nav a:hover {
   font-size: 20px;
 }
 
-header nav a:first-child {
-  margin-left: 0;
-}
-
 /* h1 and main img */
 header .hero {
   margin-top: 150px;
@@ -222,7 +214,6 @@ header .main-header {
 
 header .main-img {
   width: 420px;
-  margin-left: 40px;
 }
 
 header .main-header h1.heading {
