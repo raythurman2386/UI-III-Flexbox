@@ -321,10 +321,12 @@ section.cards article.card {
 
 section.facts {
 	display: flex;
+	justify-content: space-between;
 }
 
 section.facts div {
-	width: 45%;
+	width: 420px;
+	margin-top: 40px;
 }
 
 section.cards article.card button.learn {
