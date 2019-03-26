@@ -289,10 +289,6 @@ footer {
 }
 
 /* Services CSS */
-.main-services p {
-  font-weight: 600;
-}
-
 .services-header-img {
   width: 100%;
   margin-top: 100px;
@@ -361,7 +357,6 @@ section.facts div ul li {
   list-style-type: square;
   list-style-position: inside;
   line-height: 2;
-  font-weight: 600;
 }
 
 section.facts div ul li:first-child {
