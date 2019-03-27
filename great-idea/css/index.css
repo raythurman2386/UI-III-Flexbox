@@ -420,6 +420,19 @@ section.facts div ul li:first-child {
   width: 380px;
 }
 
+.main-contact .contact-form .form .submit-btn {
+  background: white;
+  border: 1px solid darkgray;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 3px;
+}
+
+.main-contact .contact-form .form .submit-btn:hover {
+  animation: buttonFill 2s;
+  animation-fill-mode: forwards;
+}
+
 /*    Media Query Attempts     */
 @media only screen and (max-width: 500px) {
   .container header nav {
